@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TopBar title="对比度计算器"/>
+    <ContrastRatio />
+    <BottomBar />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ContrastRatio from './components/ContrastRatio.vue'
+import TopBar from './components/TopBar.vue'
+import BottomBar from './components/BottomBar.vue'
 
 export default {
   name: 'App',
+  data () {
+    return {
+      filterResults: null,
+      showSearch: false
+    }
+  },
   components: {
-    HelloWorld
+    ContrastRatio,
+    TopBar,
+    BottomBar
   }
 }
 </script>
 
 <style lang="scss">
+*  {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #121212;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
 }
 </style>

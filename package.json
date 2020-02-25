@@ -34,12 +34,14 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "@vue/standard"
+      "eslint:recommended"
     ],
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",
