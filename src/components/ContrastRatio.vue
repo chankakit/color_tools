@@ -76,32 +76,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 96px 24px 0 24px;
-  .ring-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 16px;
-    margin-bottom: 24px;
-    width: 192px;
-    height: 192px;
-    border-radius: 50%;
-    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.05) 100%);
-
-    .black-circle {
-      position: absolute;
-      width: 120px;
-      height: 120px;
-      text-align: center;
-      line-height: 120px;
-      border-radius: 50%;
-      background: black;
-      .result {
-        font-size: 28px;
-        font-weight: 700;
-      }
-    }
-  }
-
+  
   .test-area {
     box-sizing: border-box;
     margin-top: 8px;

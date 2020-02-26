@@ -70,7 +70,7 @@ export default {
   margin-bottom: 24px;
   border-radius: 50%;
   background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.05) 100%);
-  
+
   .ring {
     circle {
       transition: all 0.5s cubic-bezier(.3,.01,.35,1);

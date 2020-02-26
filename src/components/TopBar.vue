@@ -4,7 +4,9 @@
       <div id="sed">SED</div>
       <div id="ct">COLOR TOOLS</div>
     </div>
+
     <div class="page-title">{{ title }}</div>
+
   </div>
 </template>
 
